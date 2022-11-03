@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Author: Kemmy MO Jones
+  Project: AerolyfQuizApp
+  Date: 2022/10/18
+  Email: mjkonceptz@gmail.com
+  UI/UX Design: Kemmy MO Jones ~ (Mjkonceptz)
+  Copyright (c) 2022 MJKonceptz. All rights reserved.
+-->
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/alatsi</item>
+    </array>
+</resources> <!--end: preloaded_fonts-->

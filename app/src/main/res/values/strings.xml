@@ -1,0 +1,61 @@
+<!--
+  Author: Kemmy MO Jones
+  Project: AerolyfQuizApp
+  Date: 2022/10/18
+  Email: mjkonceptz@gmail.com
+  Copyright (c) 2022 MJKonceptz. All rights reserved.
+-->
+
+<resources>
+    <string name="app_name">Aerolyf Quiz App</string>
+    <string name="welcome_custom_text">Welcome: Login</string>
+    <string name="welcome_register_text">Welcome: Register</string>
+    <string name="user_name">Name:</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="start">Start Quiz</string>
+    <string name="imgCategoryLogo">imgCategoryLogo</string>
+    <string name="categorySpinner">Quiz Modules</string>
+    <string name="quiz_difficulty_dashboard">Choose Difficulty Level:</string>
+    <string name="topic_dashboard">Choose Topic:</string>
+    <string name="category_image_icon">Category Image Icon</string>
+    <string name="exit">Logout</string>
+    <string name="home">Home</string>
+    <string name="score">Score: 0</string>
+    <string name="question_number">Question: 1/x</string>
+    <string name="Timer">00:30</string>
+    <string name="option">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+    <string name="question">What is red blood cell and the function of red blood cell, name one function for\nWhat is red blood cell and the function of red blood cell name one function for</string>
+    <string name="submitAnswer">Submit Answer</string>
+    <string name="submitAnswer_image_icon">submitAnswer_image_icon</string>
+    <string name="highest_score">Highest Score: 0</string>
+    <string name="total_score">Score : 0%</string>
+    <string name="answer_all_question_amp_submit_to_finish_quiz"><![CDATA[Answer All Question & Submit To Finish Quiz]]></string>
+    <string name="difficulty">Difficulty</string>
+    <string name="difficult_Level">difficulty: </string>
+    <string name="trophy">trophy</string>
+    <string name="quiz_category">Quiz Category</string>
+    <string name="rating_star">Rating Star</string>
+    <string name="dialog_title">Exit Alert </string>
+    <string name="dialog_message">Want To Exit Aerolyf Quiz App ?,\nTap Yes Button To Confirm Exit.</string>
+    <string name="dialog_positive_button_text">Yes</string>
+    <string name="dialog_negative_button_text">No</string>
+    <string name="dialog_ok_button_text">OK</string>
+    <string name="login_dialog_title">Login Error ! </string>
+    <string name="login_dialog_message"> Valid Name And Password Is Required! </string>
+    <string name="register_dialog_title">Registration Error !</string>
+    <string name="register_dialog_message">All Fields Are Required! </string>
+    <string name="submit_dialog_title">Quiz Not Completed ! </string>
+    <string name="submit_dialog_message">All Quiz Questions Must Be Answered And Submitted.</string>
+    <string name="score_dialog_title">Quiz Score Details ! </string>
+    <string name="score_dialog_message">To Exit Quiz Score Details, Tap On The Hone Button.</string>
+    <string name="success_dialog_title">Registration Successful ! </string>
+    <string name="success_dialog_message">Log-In And Continue To The Quiz Category Dashboard.</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="new_user_register">New User ?, Register Here</string>
+    <string name="launchscreenimage">launchScreenImage</string>
+</resources> <!-- end: strings resources -->

@@ -1,0 +1,203 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+     Author: Kemmy MO Jones
+     Project: AerolyfQuizApp
+     Date: 2022/10/18
+     Email: mjkonceptz@gmail.com
+     UI/UX Design: Kemmy MO Jones ~ (Mjkonceptz)
+     Copyright (c) 2022 MJKonceptz. All rights reserved.
+   -->
+
+    <!-- Base application theme. -->
+    <style name="Theme.AerolyfQuizApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!--Status bar color: Optional: set to transparent if your app is drawing behind the status bar. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- <item name="android:statusBarColor" >?attr/colorAccent</item>-->
+
+        <!-- Optional: set the status bar light and content dark. -->
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--Navigation bar color: Optional: set to transparent if your app is drawing behind the status bar. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+
+        <!-- Render How Content Is Laid Out On The Device -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+
+    </style> <!-- End - Base Application Theme -->
+
+    <!-- VIEW: CUSTOM UI DESIGN THEME -->
+    <style name="Theme.AerolyfQuizApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--Customize your theme here: My Primary Colors-->
+        <item name="cardBackgroundColor">@color/my_card_color</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="backgroundColor">@color/my_card_custom_color</item>
+        <item name="android:textColor">@color/black</item>
+
+        <!--My Secondary Colors-->
+        <item name="color">@color/my_color_stroke</item>
+        <item name="color" tools:ignore="DuplicateDefinition">@color/my_color_stroke2</item>
+        <item name="color" tools:ignore="DuplicateDefinition">@color/my_color_stroke3</item>
+
+        <!--My Text Input Secondary Colors-->
+        <item name="cardForegroundColor">@color/white</item>
+        <item name="android:color">@color/my_subhead_color</item>
+
+        <!--Status bar color: Optional: set to transparent if your app is drawing behind the status bar. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- <item name="android:statusBarColor" >?attr/colorAccent</item>-->
+
+        <!-- Optional: set the status bar light and content dark. -->
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--Navigation bar color: Optional: set to transparent if your app is drawing behind the status bar. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+
+        <!-- Render How Content Is Laid Out On The Device -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+
+    </style> <!-- End - My Custom UI Theme -->
+
+    <!-- VIEW: CUSTOM ALERT DIALOG UI DESIGN -->
+    <style name="customExitAlertDialog" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="dialogCornerRadius">20dp</item>
+
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="dialogPreferredPadding">2dp</item>
+
+        <item name="android:textColorPrimary">@color/btn_strokecolor</item>
+        <item name="android:textColor">@color/my_pink</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:dialogTitle">@string/dialog_title</item>
+        <item name="android:dialogIcon">@drawable/ic_alert</item>
+        <item name="android:dialogMessage">@string/dialog_message</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.AppCompat.Title</item>
+
+        <item name="buttonCompat">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="android:positiveButtonText">@string/dialog_positive_button_text</item>
+        <item name="android:negativeButtonText">@string/dialog_negative_button_text</item>
+
+    </style> <!-- End - Custom Exit Alert Dialog Theme  -->
+
+    <!-- VIEW: CUSTOM ALERT DIALOG UI DESIGN -->
+    <style name="customLoginErrorAlertDialog" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="dialogCornerRadius">20dp</item>
+
+        <item name="android:textColorPrimary">@color/btn_strokecolor</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:dialogTitle">@string/login_dialog_title</item>
+        <item name="android:dialogIcon">@drawable/ic_info_exit</item>
+        <item name="android:dialogMessage">@string/login_dialog_message</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.AppCompat.Title</item>
+
+        <item name="buttonCompat">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="android:positiveButtonText">@string/dialog_positive_button_text</item>
+
+    </style> <!-- VIEW: CUSTOM LOGIN Error ALERT DIALOG UI DESIGN -->
+
+    <!-- VIEW: CUSTOM ALERT DIALOG UI DESIGN -->
+    <style name="customQuizAlertDialog" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="dialogCornerRadius">20dp</item>
+
+        <item name="android:textColorPrimary">@color/my_color_stroke3</item>
+        <item name="android:textColor">@color/dialogNegativeButtonColor1</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:dialogTitle">@string/submit_dialog_title</item>
+        <item name="android:dialogIcon">@drawable/ic_info_warning</item>
+        <item name="android:dialogMessage">@string/submit_dialog_message</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.AppCompat.Title</item>
+
+        <item name="buttonCompat">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="android:positiveButtonText">@string/dialog_positive_button_text</item>
+
+    </style> <!-- VIEW: Custom Quiz Not Completed Warning ALERT DIALOG UI DESIGN -->
+
+    <!-- VIEW: CUSTOM ALERT DIALOG UI DESIGN -->
+    <style name="customScoreAlertDialog" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="dialogCornerRadius">20dp</item>
+
+        <item name="android:textColorPrimary">@color/my_color_stroke3</item>
+        <item name="android:textColor">@color/dialogNegativeButtonColor1</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:dialogTitle">@string/score_dialog_title</item>
+        <item name="android:dialogIcon">@drawable/ic_info_warning</item>
+        <item name="android:dialogMessage">@string/score_dialog_message</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.AppCompat.Title</item>
+
+        <item name="buttonCompat">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="android:positiveButtonText">@string/dialog_positive_button_text</item>
+
+    </style> <!-- VIEW: Custom Score Details Warning ALERT DIALOG UI DESIGN -->
+
+    <!-- VIEW: CUSTOM ALERT DIALOG UI DESIGN -->
+    <style name="customSuccessDialog" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="dialogCornerRadius">20dp</item>
+
+        <item name="android:textColorPrimary">@color/teal_700</item>
+        <item name="android:textColor">@color/teal_700</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:dialogTitle">@string/score_dialog_title</item>
+        <item name="android:dialogIcon">@drawable/ic_info_success</item>
+        <item name="android:dialogMessage">@string/score_dialog_message</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.AppCompat.Title</item>
+
+        <item name="buttonCompat">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="android:positiveButtonText">@string/dialog_positive_button_text</item>
+
+    </style> <!-- VIEW: Registration Success ALERT DIALOG UI DESIGN -->
+</resources> <!-- End of Theme Resources  -->
+
+

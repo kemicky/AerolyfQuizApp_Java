@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_questioncategoryimg"
+    android:fillViewport="true"
+    tools:context=".activities.AerolyfQuestionTopicCategoryActivity"
+    tools:ignore="Overdraw">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mtCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:outlineProvider="background"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="@android:color/transparent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_quizapp_imgcategory">
+
+                <ImageView
+                    android:id="@+id/logoImg"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/aerologo"
+                    android:contentDescription="@string/imgCategoryLogo"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toTopOf="@+id/mtPlayerGreeting"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ImageContrastCheck">
+
+                </ImageView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/mtPlayerGreeting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardBackgroundColor="@color/my_color_stroke"
+                    app:cardCornerRadius="10dp"
+                    app:contentPadding="2dp"
+                    app:layout_constraintBottom_toTopOf="@+id/materialCardHighScore"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/logoImg"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="4dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/txtPlayerNameEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="serif"
+                            android:gravity="start"
+                            android:padding="2dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:fontFamily="serif"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="TextContrastCheck">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/txtTopic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="24dp"
+                            android:fontFamily="serif"
+                            android:gravity="start"
+                            android:labelFor="@id/spinner_category"
+                            android:text="@string/topic_dashboard"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:fontFamily="serif"
+                            app:layout_constraintBottom_toTopOf="@+id/txtSpinnerLabel"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtPlayerNameEmail"
+                            app:layout_constraintVertical_bias="0.5"
+                            tools:ignore="TextContrastCheck">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+                        <Spinner
+                            android:id="@+id/spinner_category"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:backgroundTint="@android:color/holo_blue_light"
+                            android:backgroundTintMode="add"
+                            android:contentDescription="@string/categorySpinner"
+                            android:gravity="fill_vertical|end"
+                            android:minHeight="48dp"
+                            android:outlineProvider="background"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            app:layout_constraintBottom_toBottomOf="@+id/txtTopic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/txtTopic"
+                            tools:ignore="DuplicateSpeakableTextCheck">
+
+                        </Spinner>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/txtSpinnerLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginBottom="24dp"
+                            android:fontFamily="serif"
+                            android:gravity="start"
+                            android:labelFor="@id/spinner_difficulty"
+                            android:padding="2dp"
+                            android:text="@string/quiz_difficulty_dashboard"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:fontFamily="serif"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtTopic"
+                            tools:ignore="TextContrastCheck">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+                        <Spinner
+                            android:id="@+id/spinner_difficulty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="24dp"
+                            android:backgroundTint="@android:color/holo_orange_dark"
+                            android:backgroundTintMode="add"
+                            android:contentDescription="@string/difficulty"
+                            android:gravity="fill_vertical|end"
+                            android:minHeight="48dp"
+                            android:outlineProvider="background"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            app:layout_constraintBottom_toBottomOf="@+id/txtSpinnerLabel"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/txtSpinnerLabel"
+                            tools:ignore="DuplicateSpeakableTextCheck">
+
+                        </Spinner>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/materialCardHighScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardBackgroundColor="@color/my_color_stroke2"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toTopOf="@+id/mtCategoryButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mtPlayerGreeting"
+                    app:layout_constraintVertical_bias="0.5"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="4dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/txtHighScore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:drawableStart="@drawable/ic_trophy_highscore"
+                            android:drawablePadding="3sp"
+                            android:fontFamily="serif"
+                            android:text="@string/highest_score"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_trophy_highscore"
+                            app:fontFamily="serif"
+                            app:layout_constraintBottom_toTopOf="@+id/mtCardRating"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.5">
+
+                        </com.google.android.material.textview.MaterialTextView>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/mtCardRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="8dp"
+                            app:cardPreventCornerOverlap="false"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtHighScore"
+                            app:rippleColor="@android:color/transparent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center">
+
+                                <com.google.android.material.textview.MaterialTextView
+                                    android:id="@+id/txtRatings"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:drawableStart="@drawable/ic_rating_star"
+                                    android:fontFamily="@font/magica"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                                    android:textColor="#c8b900"
+                                    android:textStyle="bold"
+                                    app:drawableStartCompat="@drawable/ic_rating_star"
+                                    app:fontFamily="@font/magica"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:ignore="TextContrastCheck">
+
+                                </com.google.android.material.textview.MaterialTextView>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/mtCategoryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/my_color_stroke2"
+                    app:cardCornerRadius="10dp"
+                    app:contentPadding="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/materialCardHighScore"
+                    app:layout_constraintVertical_bias="0.5"
+                    app:strokeColor="@color/cardview_dark_background"
+                    app:strokeWidth="4dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnStartQuiz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="16dp"
+                            android:backgroundTint="?attr/colorBackgroundFloating"
+                            android:contentDescription="@string/start"
+                            android:elegantTextHeight="true"
+                            android:text="@string/start"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="#061C97"
+                            android:textStyle="bold"
+                            app:cornerRadius="10dp"
+                            app:elevation="8dp"
+                            app:icon="@drawable/rightarrow"
+                            app:iconGravity="textEnd"
+                            app:iconPadding="2dp"
+                            app:iconSize="28dp"
+                            app:iconTint="#061C97"
+                            app:layout_constraintBottom_toBottomOf="@+id/btnExit"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/btnExit"
+                            app:srcCompat="@drawable/rightarrow"
+                            app:strokeColor="@android:color/holo_blue_bright"
+                            app:strokeWidth="4dp"
+                            tools:ignore="NewApi,TextContrastCheck">
+
+                        </com.google.android.material.button.MaterialButton>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnExit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:elegantTextHeight="true"
+                            android:fontFamily="sans-serif-black"
+                            android:text="@string/exit"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="@color/my_pink"
+                            android:textStyle="normal|bold"
+                            app:backgroundTint="@color/my_magenta"
+                            app:cornerRadius="10dp"
+                            app:elevation="4dp"
+                            app:icon="@drawable/ic_logout"
+                            app:iconGravity="start"
+                            app:iconPadding="5dp"
+                            app:iconSize="22dp"
+                            app:iconTint="@color/my_pink"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:strokeColor="@color/my_pink"
+                            app:strokeWidth="4dp"
+                            tools:ignore="TextContrastCheck">
+
+                        </com.google.android.material.button.MaterialButton>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

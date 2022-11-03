@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_ribbon_solid.xml" value="0.1095" />
+        <entry key="app/src/main/res/layout-v31/activity_aerolyf_question_topic_category.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_aerolyf_question_topic_category.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_aerolyf_quiz_question.xml" value="0.2144748455428067" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_score.xml" value="0.19453125" />
+        <entry key="app/src/main/res/layout/activity_tezt_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/questions_topic_categories_row.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity answered" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity backPressedTime" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.ScoreActivity backPressedTime" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity btnSubmit" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity categoryID" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity categoryName" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity COUNTDOWN_IN_MILLISECS" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity countDownTimer" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.model.Question CREATOR" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity currentQuestion" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity difficulty" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity EXTRA_CATEGORY_ID" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity EXTRA_CATEGORY_NAME" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity EXTRA_DIFFICULTY" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.ScoreActivity EXTRA_SCORE" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity EXTRA_TOTAL_QUESTION" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity EXTRA_TOTAL_SCORE" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity highScore" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity KEY_ANSWERED" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity KEY_HIGHSCORE" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity KEY_MILLISECS_LEFT" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity KEY_QUESTION_LIST" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity KEY_QUESTION_NUM" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity KEY_SCORE" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity mStartForResult" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity mtTxtTimer" />
+      <entry_point TYPE="method" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity$1 void onActivityResult(androidx.activity.result.ActivityResult result)" />
+      <entry_point TYPE="method" FQNAME="com.mjkonceptz.aerolyfquizapp.ScoreActivity$1 void onClick(android.view.View view)" />
+      <entry_point TYPE="method" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity$1 void onFinish()" />
+      <entry_point TYPE="method" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity$1 void onTick(long millisUntilFinished)" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.ScoreActivity percentScore" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity questionCounter" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity questionCountTotal" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity questionList" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity radBtn1" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity radBtn2" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity radBtn3" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity radBtn4" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity radGroup" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity score" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity selectedCategory" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity SHARED_PREFS" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity spinnerCategory" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity spinnerDifficulty" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity TAG" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity TAG" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.ScoreActivity TAG" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity textColorDefaultCd" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity textColorDefaultRadBtn" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity timeLeftInMilliSecs" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity txtHighScore" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity txtQuestion" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity txtQuestionNum" />
+      <entry_point TYPE="field" FQNAME="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity txtScore" />
+    </entry_points>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="android.annotation.SuppressLint" />
+    </list>
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.Category" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.Category" method="Category" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="checkAnswer" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ExampleInstrumentedTest" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ExampleUnitTest" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="finishQuiz" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.QuizDbHelper" method="getAllQuestions" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.Question" method="getId" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" method="gotoQuiz" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.MainActivity" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ScoreActivity" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" method="loadCategories" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" method="loadDifficultyLevels" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" method="loadHighScore" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="onBackPressed" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ScoreActivity" method="onBackPressed" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" method="onCreate" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="onCreate" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ScoreActivity" method="onCreate" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="onDestroy" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="onSaveInstanceState" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.Question" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.Question" method="Question" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.model.QuizDbHelper" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="showNextQuestion" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="showSolution" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="startCountDown" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuizQuestionActivity" method="updateCountDownText" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.AerolyfQuestionTopicCategoryActivity" method="updateHighScore" />
+    <pattern value="com.mjkonceptz.aerolyfquizapp.ExampleInstrumentedTest" method="useAppContext" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

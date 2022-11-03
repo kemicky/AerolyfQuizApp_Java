@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true"
+    android:background="@drawable/quizappbackgroundimg"
+    tools:context=".activities.AerolyfAppLoginScreen"
+    tools:ignore="Overdraw">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mtCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:outlineProvider="background"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="@android:color/transparent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_quizapp_imgcategory">
+
+                <!--ImageView Ends-->
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitEnd"
+                    app:layout_constraintBottom_toTopOf="@+id/materialCardView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.5"
+                    app:srcCompat="@drawable/logoaero" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/materialCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:outlineProvider="background"
+                    android:padding="2sp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="8dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="1sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView"
+                    app:rippleColor="@android:color/transparent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_quizapp_imgcategory">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/materialTextView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:contentDescription="@string/welcome_custom_text"
+                            android:fontFamily="serif"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:text="@string/welcome_custom_text"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                            android:textColor="@color/my_color_stroke3"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="TextContrastCheck"
+                            tools:text="@string/welcome_custom_text" /> <!--TextField Ends-->
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etxtName"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="2dp"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            app:boxStrokeColor="@color/my_color_stroke"
+                            app:boxStrokeWidth="3dp"
+                            app:hintAnimationEnabled="true"
+                            app:hintTextColor="@color/purple_200"
+                            app:layout_constraintBottom_toTopOf="@+id/etxtPasswordLog"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/materialTextView2"
+                            app:layout_constraintVertical_bias="0.5">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/txtName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:freezesText="true"
+                                android:hint="@string/user_name"
+                                android:inputType="textNoSuggestions|textPersonName|text"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/my_color_stroke3"
+                                android:textColorHint="#607D8B"
+                                android:textStyle="bold"
+                                tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+                        </com.google.android.material.textfield.TextInputLayout> <!--TextInputName Ends-->
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/etxtPasswordLog"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            app:boxStrokeColor="@color/my_color_stroke"
+                            app:boxStrokeWidth="3dp"
+                            app:hintAnimationEnabled="true"
+                            app:hintTextColor="@color/purple_200"
+                            app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/etxtName"
+                            app:layout_constraintVertical_bias="0.5">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/txtPassword"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:freezesText="true"
+                                android:hint="@string/password"
+                                android:inputType="textNoSuggestions|textPassword|textWebPassword"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/my_color_stroke3"
+                                android:textStyle="bold"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                        </com.google.android.material.textfield.TextInputLayout> <!--TextInputEmail Ends-->
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnLogin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="2dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/login"
+                            android:elevation="3dp"
+                            android:focusable="true"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center|center_horizontal"
+                            android:text="@string/login"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textColor="@color/btn_color"
+                            android:typeface="monospace"
+                            app:backgroundTint="@color/white"
+                            app:cornerRadius="8dp"
+                            app:icon="@drawable/ic_login"
+                            app:iconGravity="textEnd"
+                            app:iconPadding="2dp"
+                            app:iconTint="@color/btn_color"
+                            app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/etxtPasswordLog"
+                            app:strokeColor="@color/btn_strokecolor"
+                            app:strokeWidth="3dp"
+                            tools:text="@string/login" /> <!-- Material Button Login Ends-->
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/materialTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:contentDescription="@string/answer_all_question_amp_submit_to_finish_quiz"
+                            android:fontFamily="@font/alatsi"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:padding="3dp"
+                            android:text="@string/answer_all_question_amp_submit_to_finish_quiz"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                            android:textColor="@color/black"
+                            android:textStyle="normal"
+                            android:typeface="serif"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/btnRegister"
+                            tools:ignore="TextContrastCheck">
+
+                        </com.google.android.material.textview.MaterialTextView> <!--TextField Ends-->
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnRegister"
+                            style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="2dp"
+                            android:clickable="true"
+                            android:contentDescription="@string/new_user_register"
+                            android:elevation="3dp"
+                            android:focusable="true"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center|center_horizontal"
+                            android:text="@string/new_user_register"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:textColor="#C51162"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            app:cornerRadius="8dp"
+                            app:icon="@drawable/rightarrow"
+                            app:iconGravity="textEnd"
+                            app:iconPadding="2dp"
+                            app:iconTint="@color/dialogPositiveButtonColor1"
+                            app:layout_constraintBottom_toTopOf="@+id/materialTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+                            tools:ignore="TextContrastCheck"
+                            tools:text="@string/new_user_register" /> <!-- Material Button Login Ends-->
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout> <!--Linear Layout CardView Ends-->
+
+                </com.google.android.material.card.MaterialCardView> <!--CardView Ends-->
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView> <!--Linear Layout Ends-->
