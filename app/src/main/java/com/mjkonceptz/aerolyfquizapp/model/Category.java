@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
  * CLASS ~ Category Data Fields
  */
 
+@SuppressWarnings("unused")
 public class Category {
 
     /* Constants: Quiz Topic Categories */

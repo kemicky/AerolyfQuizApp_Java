@@ -12,6 +12,7 @@ import android.os.Parcelable;
  * CLASS ~ Question Data Fields
  */
 
+@SuppressWarnings("unused")
 public class Question implements Parcelable {
 
     /* Constants: Quiz Difficulty Levels */

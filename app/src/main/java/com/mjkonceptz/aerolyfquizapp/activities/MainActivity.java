@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     /* VARIABLES */
     private static final long DELAY = 10000;
+    @SuppressWarnings("unused")
     boolean scheduled = false;
 
     /* VIEW LIFECYCLE ~ onCreate */
