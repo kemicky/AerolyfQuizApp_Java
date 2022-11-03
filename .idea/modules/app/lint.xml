@@ -10,42 +10,27 @@
     </issue>
     <issue id="IconLocation">
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/aerologo.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/aerologo.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_aerolyfquizapp_launchscreen.gif" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_alert.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_cert.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_congratgreet.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_congratgreet.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_endofquiz.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_endofquiz.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_endquizimg.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_home.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_home.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_info_exit.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_info_success.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_info_warning.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_login.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_logout.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_logoutimg.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_questioncategoryimg.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_questioncategoryimg.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_quizapp_imgcategory.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_quizapp_imgcategory.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_rating_star.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_ribbon.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_ribbon.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_submit.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_submitimg.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_trophy.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_trophy_highscore.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/ic_trophy_highscore.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/logoaero.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/logoaero.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/quizappbackgroundimg.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/quizappbackgroundimg.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/quizappscreenimg.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/quizappscreenimg.png" />
-        <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/rightarrow.png" />
         <ignore path="/Users/kemmymaryomoshoro/AndroidStudioProjects/AerolyfQuizApp/app/src/main/res/drawable/rightarrow.png" />
     </issue>
 </lint>
