@@ -7,12 +7,13 @@ android {
 
     defaultConfig {
         applicationId "com.mjkonceptz.aerolyfquizapp"
-        minSdk 23
+        minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
 
