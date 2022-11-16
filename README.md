@@ -27,7 +27,8 @@ In this tutorial we are going to buid a full functional android quiz application
 https://user-images.githubusercontent.com/57273086/202053563-15216d6a-ac0e-489c-a53d-3980156cc0ea.mp4
 
 # App UseCase Diagram:
-![Aerolyf_QuizApp_MJ](https://user-images.githubusercontent.com/57273086/202054491-74f5c824-65fd-42e3-80a6-1c41bd01f2ab.png)
+![AerolyfQuizApp_MJ](https://user-images.githubusercontent.com/57273086/202064328-5eb9a648-d0f2-445b-9d68-9070330e4950.png)
+
 
 
 
